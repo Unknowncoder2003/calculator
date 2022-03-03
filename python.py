@@ -9,4 +9,8 @@ x = int(input())
 y = int(input())
 symbol = input()
 if symbol == "+":
+  z = x + y
+elif symbol == "-":
+  z = x - y
+print(z)
 
